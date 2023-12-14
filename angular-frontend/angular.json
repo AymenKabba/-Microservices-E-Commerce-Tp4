@@ -67,10 +67,10 @@
           "builder": "@angular-devkit/build-angular:dev-server",
           "configurations": {
             "production": {
-              "browserTarget": "ecom-web-app:build:production"
+              "buildTarget": "ecom-web-app:build:production"
             },
             "development": {
-              "browserTarget": "ecom-web-app:build:development"
+              "buildTarget": "ecom-web-app:build:development"
             }
           },
           "defaultConfiguration": "development"
@@ -78,7 +78,7 @@
         "extract-i18n": {
           "builder": "@angular-devkit/build-angular:extract-i18n",
           "options": {
-            "browserTarget": "ecom-web-app:build"
+            "buildTarget": "ecom-web-app:build"
           }
         },
         "test": {
